@@ -95,8 +95,8 @@ int main(void)
         {
             funeral = 1750;
         }
-        cout << "Se le entregara un 15% para gastos funerales, que seria de $" << funeral << " ademas del monto asegurado \n";
-        break;
+        cout << "Se le entregara un extra del 15% de la suma asegurada para gastos funerales, con maximo de $1750, en este caso seria de $" << funeral << "\n";
+            break;
     default: // Default se usa para cuando el usuario no ingresa una opcion valida
         cout << "Ingrese una opción valida \n";
         break;
@@ -196,7 +196,7 @@ int main(void)
             {
                 funeral = 1750;
             }
-            cout << "Se le entregara un 15% para gastos funerales, que seria de $" << funeral << " ademas del monto asegurado \n";
+            cout << "Se le entregara un extra del 15% de la suma asegurada para gastos funerales, con maximo de $1750, en este caso seria de $" << funeral << "\n";
             break;
         default: // Default se usa para cuando el usuario no ingresa una opcion valida
             cout << "Ingrese una opción valida \n";
